@@ -26,5 +26,4 @@
 ## Open TODOs
 
 - Add a public link to the planned Genkan talk only if it is announced.
-- Review the selected contact method and add a verified email or social link if wanted.
-- Replace the site's illustrative hash seal with a real published ruler hash when available.
+- The supplied oathgate ruler hash is now shown on the site. GitHub, X, LinkedIn, and email links are present.

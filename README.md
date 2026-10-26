@@ -20,4 +20,4 @@ Hypothesis: agents should earn rights through verified results. Genkan is a cont
 
 **Current focus:** leading an AI-based testing initiative at EssilorLuxottica; moving toward Lead/Staff AI Engineer. I started as a frontend lead and have 9+ years in engineering.
 
-[Open the notebook](https://uladzkha.github.io) · [GitHub](https://github.com/UladzKha)
+[Open the notebook](https://uladzkha.github.io) · [GitHub](https://github.com/UladzKha) · [X](https://x.com/u_kouski) · [LinkedIn](https://www.linkedin.com/in/k-dalu/) · [Email](mailto:raer.camp@gmail.com)
