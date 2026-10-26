@@ -23,7 +23,10 @@
 2. Evidence before capability.
 3. Freeze the ruler. Trust the result.
 
+## Completed in this update
+
+- The supplied oathgate ruler hash is shown on the site. GitHub, X, LinkedIn, and email links are present.
+
 ## Open TODOs
 
 - Add a public link to the planned Genkan talk only if it is announced.
-- The supplied oathgate ruler hash is now shown on the site. GitHub, X, LinkedIn, and email links are present.
