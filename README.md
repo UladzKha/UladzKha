@@ -1,45 +1,23 @@
-# Hi, I'm Ulad 👋
+# Lab notebook of Uladzimir Khadakouski
 
-**AI Engineer building measurable, local-first LLM systems.**
+AI/QA engineer in Purmerend, NL. I build AI you can verify.
 
-I have around ten years of software engineering experience, from frontend development and technical leadership to building AI systems in production.
+Trustworthy AI needs rulers that cannot quietly move: frozen evaluations, guarded memory, and rights earned through verified results.
 
-My current focus is LLM evaluation, agentic systems, deterministic quality gates, and self-hosted AI infrastructure. I care less about whether a demo looks convincing and more about whether an improvement can be measured and reproduced.
+**Current entries: 001 oathgate, 002 memgate, 003 Genkan (running).**
 
-## Selected projects
+### [001 — oathgate](https://github.com/UladzKha/oathgate) · public · [PyPI](https://pypi.org/project/oathgate/)
 
-### [Samuraizer](https://github.com/UladzKha/samuraizer-cli)
-A local-first CLI and MCP server that turns meeting recordings into transcripts, summaries, action items, and decisions—without sending data to the cloud.
+Hypothesis: an evaluation is trustworthy only if its method is fixed before the run. `oathgate predict` freezes that method into a hash; `oathgate check` returns 0 if it holds, 1 if it moved, or 2 if it cannot tell. v0.1.0 has zero runtime dependencies and 55 tests on Python 3.11–3.13. Its CI checks the repo with its own lock.
 
-It is the reference implementation of the **memnex v0.2** open specification and produces portable meeting outputs with a complete provenance chain.
+### [002 — memgate](https://github.com/UladzKha/memgate) · public · [pilot](https://github.com/UladzKha/memory-gate-pilot) · [dataset](https://doi.org/10.5281/zenodo.23665517)
 
-`TypeScript` · `Node.js` · `Whisper` · `Ollama` · `MCP`
+Hypothesis: untrusted text needs a gate before it becomes agent memory. A deterministic local gate uses provenance tags and an action-time guard. No LLM runs inside it. The pilot used three local ~24–31B models: Qwen, Gemma, and Mistral.
 
-### [Pixelize](https://github.com/UladzKha/pixelize)
+### 003 — Genkan · private · running
 
-An observable agentic pipeline that converts photos into pixel art using local models.
+Hypothesis: agents should earn rights through verified results. Genkan is a continuity runtime for one personal agent whose identity, memory, and goals survive as cognition moves between devices. In progress.
 
-A vision agent selects the rendering style, a deterministic tool creates the image, and an independent quality gate evaluates the result and triggers retries. Every decision is recorded and streamed to a live dashboard.
+**Current focus:** leading an AI-based testing initiative at EssilorLuxottica; moving toward Lead/Staff AI Engineer. I started as a frontend lead and have 9+ years in engineering.
 
-`TypeScript` · `NestJS` · `React` · `Ollama` · `Redis` · `BullMQ` · `sharp`
-## What I'm exploring
-
-- LLM evaluation and golden-set design
-- Agent testing and deterministic quality gates
-- Mechanistic interpretability
-- Local inference and self-hosted infrastructure
-- Privacy-focused and local-first software
-
-## Home lab
-
-I run a dual-GPU local inference environment for LLM, embedding, vision, and speech workloads, alongside a Raspberry Pi–based self-hosted stack.
-
-My tooling includes `llama.cpp`, `vLLM`, `Ollama`, Docker, CUDA, Tailscale, Prometheus, and Grafana.
-
-## Background
-Before focusing on AI engineering, I spent several years building and leading frontend systems. This gives me a product-oriented perspective on AI: models matter, but reliable architecture, observability, evaluation, and user experience matter just as much.
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/k-dalu/) ·
-[Email](mailto:raer.camp@gmail.com)
+[Open the notebook](https://uladzkha.github.io) · [GitHub](https://github.com/UladzKha)
